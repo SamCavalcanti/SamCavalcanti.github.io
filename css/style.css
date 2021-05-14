@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #222;
+    background: #fff09e
+}
+
+img {
+    max-width: 100%;
+}
+
+body h1 {
+    color: rgb(0, 8, 109);
+}
+
+header {
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+header div.header-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+header div.header-menu a {
+    color: #333333;
+    text-decoration: none;
+    /* background: chartreuse; */
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+header div.header-menu a:hover {
+    color:rgb(47, 0, 255);
+}
+
+header div.header-logo a {
+    color: #333333;
+    text-decoration: none;
+    /* background: chartreuse; */
+    padding: 10px 5px;
+    font-size: 30px;
+}
+
+
+/* Intro */
+
+.intro {
+    /* background: rgb(32, 32, 255); */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 60px;
+}
+
+.arma {
+    /* background: purple; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    border: 4px solid rgb(0, 8, 109);
+}
+
+.arma img {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.arma-item h2 {
+    padding: 15px;
+    color: rgb(0, 8, 109);
+}
+
+.arma-item {
+    /* background: magenta; */
+    margin: 10px auto;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.arma-item p {
+    /* background:rgb(0, 8, 109); */
+    color: rgb(0, 8, 109);
+    max-width: 300px;
+    /* margin: 0 auto; */
+    text-align: center;
+}

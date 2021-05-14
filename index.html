@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #222;
+    background: #fff09e
+}
+
+img {
+    max-width: 100%;
+}
+
+body h1 {
+    color: rgb(0, 8, 109);
+}
+
+header {
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+header div.header-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+header div.header-menu a {
+    color: #333333;
+    text-decoration: none;
+    /* background: chartreuse; */
+    margin: 10px;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+header div.header-menu a:hover {
+    color:rgb(47, 0, 255);
+}
+
+header div.header-logo a {
+    color: #333333;
+    text-decoration: none;
+    /* background: chartreuse; */
+    padding: 10px 5px;
+    font-size: 30px;
+}
+
+
+/* Intro */
+
+.intro {
+    /* background: rgb(32, 32, 255); */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 60px;
+}
+
+.arma {
+    /* background: purple; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    border: 4px solid rgb(0, 8, 109);
+}
+
+.arma img {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.arma-item h2 {
+    padding: 15px;
+    color: rgb(0, 8, 109);
+}
+
+.arma-item {
+    /* background: magenta; */
+    margin: 10px auto;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.arma-item ul {
+    /* background:rgb(89, 90, 109); */
+    list-style: none;
+    color: rgb(0, 8, 109);
+    font-size: 20px;
+    max-width: 300px;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 10px
+}
+
+.arma-item ul li {
+    margin: 20px auto;
+}
+
+.arma-item a {
+    /* background: red; */
+    padding: 4px;
+}
+
+.arma-item p {
+    /* background: red; */
+    color: #4b3f83;
+}
+
+.arma-item p.atenc {
+    color: #0024ee;
+    border: 3px double rgb(0, 8, 109);
+    padding: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="#">MAT</a>
+        </div>
+
+        <div class="header-menu">
+            <ul>
+                <li><a href="#">Sobre MAT</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1>As mais vistas</h1>
+
+
+        <div class="arma">
+
+            <div class="arma-item">
+                <ul>
+                    <li>Nome: <p>The Diamonds</p></li>
+                    <li>Integrantes: <p>Gary Owens</p>
+                    <p>Adam David Marino</p>
+                    <p>Michael Lawrence</p>
+                    <p>Jeff Dolan</p>
+                    </li>
+                    <li>Gênero: <p>Pop</p></li>
+                    <li><a href="https://en.m.wikipedia.org/wiki/The_Diamonds" target="_blank">Wikipedia com mais informações</a></li>
+                    <p class="atenc">Clique na foto para assistir</p>
+                </ul>
+            </div>
+            
+            <a href="https://youtu.be/CrbdwoNSaOo" target="_blank"><img src="img/ld.jfif"></a>
+        </div>
+
+
+        <div class="arma">
+
+            <div class="arma-item">
+                <ul>
+                    <li>Nome: <p>Perry Como</p></li>
+                    <li>Nascimento: <p>18 de Maio de 1912</p></li>
+                    <li>Falecimento: <p>12 de Maio de 2001</p></li>
+                    <li>Gênero: <p>Pop, Jazz, Swing, Rock And Roll</p></li>
+                    <li><a href="https://pt.m.wikipedia.org/wiki/Perry_Como" target="_blank">Wikipedia com mais informações</a></li>
+                    <p class="atenc">Clique na foto para assistir</p>
+                </ul>
+            </div>
+            
+            <a href="https://youtu.be/R3TDTIm_SPc" target="_blank"><img src="img/p8.jfif"></a>
+        </div>
+    </section>
+</body>
+</html>
